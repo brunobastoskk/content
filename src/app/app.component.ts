@@ -10,6 +10,6 @@ export class AppComponent {
   @Output() add: EventEmitter<any> = new EventEmitter();
 
   addToCart() {
-    this.add.emit('p-1-2');
+    this.add.emit('addToCart');
   }
 }
